@@ -29,12 +29,6 @@ public class CreateAccountFormEvents {
         birthYearsDrp.selectByIndex(1);
         elementFetch.getWebElement("ID", CreateAccountFormElements.lastNameID).sendKeys("Takacs");
         elementFetch.getWebElement("ID", CreateAccountFormElements.passwordID).sendKeys("Asdqwe123.");
-/*
-        Nem kell megint beírni, kitölti helyettem firstNameID, lastNameID után..
-
-        elementFetch.getWebElement("ID", CreateAccountFormElements.addressFirstNameID).sendKeys("David");
-        elementFetch.getWebElement("ID", CreateAccountFormElements.addressLastNameID).sendKeys("Takacs");
- */
         elementFetch.getWebElement("ID", CreateAccountFormElements.companyNameID).sendKeys("Secret");
         elementFetch.getWebElement("ID", CreateAccountFormElements.addressCompanyID).sendKeys("Helloworld 5");
         countryDrp.selectByIndex(1);
@@ -44,6 +38,12 @@ public class CreateAccountFormEvents {
         elementFetch.getWebElement("ID", CreateAccountFormElements.phoneID).sendKeys("3456028");
         elementFetch.getWebElement("ID", CreateAccountFormElements.mobileID).sendKeys("+3655499977");
         elementFetch.getWebElement("ID", CreateAccountFormElements.addressAliasID).sendKeys("");
+/*
+        Nem kell megint beírni, kitölti helyettem firstNameID, lastNameID után..
+
+        elementFetch.getWebElement("ID", CreateAccountFormElements.addressFirstNameID).sendKeys("David");
+        elementFetch.getWebElement("ID", CreateAccountFormElements.addressLastNameID).sendKeys("Takacs");
+ */
     }
     public void submitRegistration(){
         elementFetch.getWebElement("ID", CreateAccountFormElements.submitRegistrationID).click();

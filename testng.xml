@@ -7,7 +7,9 @@
     <test name="Test Automation">
         <parameter name="browserName" value="chrome"></parameter>
         <classes>
-            <class name="test.java.SampleTest"></class>
+<!--            <class name="test.java.SampleTest"></class>-->
+<!--            <class name="test.java.iFrameTest"></class>-->
+            <class name="test.java.scrollTest"></class>
         </classes>
     </test>
 </suite>

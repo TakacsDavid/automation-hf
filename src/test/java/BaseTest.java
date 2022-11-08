@@ -44,7 +44,7 @@ public class BaseTest {
         setupDriver(browserName);
         driver.manage().window().maximize();
 //        driver.get(Constants.url);
-        driver.get("http://automationpractice.com/index.php");
+//        driver.get("http://automationpractice.com/index.php");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 

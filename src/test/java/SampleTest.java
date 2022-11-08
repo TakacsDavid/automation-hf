@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 public class SampleTest extends BaseTest{
     @Test
     public void registrationProcess() throws InterruptedException {
+        driver.get("http://google.com");
         HomePageEvents homePageEvents = new HomePageEvents();
         homePageEvents.clickOnSignInButton();
         RegisterPageEvents registerPageEvents = new RegisterPageEvents();
