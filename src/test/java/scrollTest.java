@@ -1,11 +1,10 @@
 package test.java;
 
-import main.java.pageEvents.iFrameHomePageEvents;
 import main.java.pageEvents.scrollJSEvents;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
-public class scrollTest extends BaseTest{
+public class scrollTest extends BaseTest {
     @Test
     public void iFrameTest() throws InterruptedException {
         driver.get("https://the-internet.herokuapp.com/");

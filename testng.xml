@@ -9,7 +9,8 @@
         <classes>
 <!--            <class name="test.java.SampleTest"></class>-->
 <!--            <class name="test.java.iFrameTest"></class>-->
-            <class name="test.java.scrollTest"></class>
+<!--            <class name="test.java.scrollTest"></class>-->
+            <class name="test.java.httpRequest"></class>
         </classes>
     </test>
 </suite>
